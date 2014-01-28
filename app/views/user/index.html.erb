@@ -1,0 +1,11 @@
+<h1>Welcome Shahid</h1>
+<p>Find me in app/views/user/index.html.erb</p>
+<%=h @c.inspect%>
+<%if !@c.blank? %>
+<%=h @c.activities.to_s %><br /><br />
+<%=h @c.time_span_metrics.to_s %><br /><br />
+<%=h @c.lifetime_totals %><br /><br />
+<%=h @c.homepage_stats%>
+<%end%>
+<br />
+

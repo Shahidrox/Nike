@@ -1,0 +1,18 @@
+<div class="container">
+	<section id="content">
+		<!--<form action="">-->
+		<%= form_tag ('/user/index') do %>
+			<h1>Login Form</h1>
+			<div>
+				<input type="text" placeholder="Username" required="" id="username" name="email" />
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required="" id="password" name="pass" />
+			</div>
+			<div>
+				<input type="submit" value="Log in" />
+			</div>
+		<!--</form>-->
+		<% end %>		
+	</section>
+</div>
